@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFDetachedUIValidation.View", "WPFDetachedUIValidation.View\WPFDetachedUIValidation.View.csproj", "{F56D1733-0FA6-440F-91C8-CB5DC2415487}"
+	ProjectSection(ProjectDependencies) = postProject
+		{58FD5621-B744-4622-BF50-222EE8C04BE2} = {58FD5621-B744-4622-BF50-222EE8C04BE2}
+		{B417C095-628D-4D9B-AC41-7588C363B4BC} = {B417C095-628D-4D9B-AC41-7588C363B4BC}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFDetachedUIValidation.Data", "WPFDetachedUIValidation.Data\WPFDetachedUIValidation.Data.csproj", "{B417C095-628D-4D9B-AC41-7588C363B4BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDetachedUIValidation.Validation", "WPFDetachedUIValidation.Validation\WPFDetachedUIValidation.Validation.csproj", "{58FD5621-B744-4622-BF50-222EE8C04BE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F56D1733-0FA6-440F-91C8-CB5DC2415487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56D1733-0FA6-440F-91C8-CB5DC2415487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56D1733-0FA6-440F-91C8-CB5DC2415487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56D1733-0FA6-440F-91C8-CB5DC2415487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B417C095-628D-4D9B-AC41-7588C363B4BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B417C095-628D-4D9B-AC41-7588C363B4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B417C095-628D-4D9B-AC41-7588C363B4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B417C095-628D-4D9B-AC41-7588C363B4BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58FD5621-B744-4622-BF50-222EE8C04BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58FD5621-B744-4622-BF50-222EE8C04BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58FD5621-B744-4622-BF50-222EE8C04BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58FD5621-B744-4622-BF50-222EE8C04BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4FCB28E-ABD8-4C82-94A1-C0229E8F1B1C}
+	EndGlobalSection
+EndGlobal
